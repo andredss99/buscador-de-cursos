@@ -15,7 +15,7 @@
     },
     "autoload": {
         "files": [
-            "./functions.php"
+            "functions.php"
         ],
         "psr-4": {
             "Andredss99\\BuscadorDeCursos\\": "src/"
@@ -39,5 +39,7 @@
     },
     "scripts-descriptions": {
         "check": "Roda as verificações do código. PHAN, PHPCS, PHPUNIT"
-    }
+    },
+    "license": "GPL-3.0",
+    "bin": ["buscar-cursos.php"]
 }
